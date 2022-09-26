@@ -1,0 +1,59 @@
+header .burger{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.burger span{
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    position: relative;
+}
+.burger span:before,
+.burger span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#fff;
+    transition: 0.5s;
+}
+.burger span:before {
+    top: -13px;
+}
+
+.burger span:after {
+    top: 13px;
+}
+.burger span:hover{
+    background-color: red;
+    height: 8px;
+    width: 50px;
+}
+.burger span:hover:before,.show-burger span:before{
+    border: white 0px solid;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    height:9px;
+    background:#f1c40f;
+}
+.burger span:hover:after,.show-burger span:after{
+    border: white 0px solid;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height:9px;
+    background:#f1c40f;
+}
+
+
+.show-burger span:before,
+.show-burger span:after {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.show-burger span {
+    background: transparent;
+}

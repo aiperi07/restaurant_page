@@ -1,0 +1,103 @@
+footer{
+    position: relative;
+    width: 100%;
+    background-color: rgb(246, 132, 9);
+    min-height: 150px;
+    padding: 20px 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .social__icon,footer .menu{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+footer .social__icon li,footer .menu li{
+    list-style: none;
+}
+footer .social__icon li a{
+    font-size: 2em;
+    color: black;
+    
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social__icon li a:hover{
+    transform: translateY(-10px);
+    color: #fff;
+    
+}
+footer .menu li a{
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.60;
+    user-select: none;
+}
+footer .menu li a:hover{
+    opacity: 1;
+}
+footer p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+}
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background:url('https://joinup.ee/_nuxt/img/wave_bg-desk.7da5190.svg');
+    background-size: 1000px 100px;
+}
+footer .wave#wave1{
+    z-index: 90;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+footer .wave#wave2{
+    z-index: 89;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave__02 4s linear infinite;
+}
+footer .wave#wave3{
+    z-index: 90;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+}
+footer .wave#wave4{
+    z-index: 89;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave__02 3s linear infinite;
+}
+@keyframes animateWave{
+    0%{
+        background-position-x:1000px ;
+    }
+    100%{
+        background-position-x:0px ;
+    }
+}
+@keyframes animateWave__02{
+    0%{
+        background-position-x:0 ;
+    }
+    100%{
+        background-position-x:1000px ;
+    }
+}

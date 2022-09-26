@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURANT LANDING</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/menu.css">
+    <link rel="stylesheet" href="./CSS/swiper.css">
+    <link rel="stylesheet" href="./CSS/dropdown.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/burger.css">
+    <link rel="stylesheet" href="./CSS/modal.css">
+    <link rel="stylesheet" href="./CSS/telegram.css">
+    <link rel="stylesheet" href="./CSS/media.css">
+
+</head>
+<body>
+
+    <header>
+        <nav class="header_nav">
+            <div class="logo">
+                <img src="https://www.designfreelogoonline.com/wp-content/uploads/2021/07/000957-restaurant-06.png" alt="logo">
+            </div>
+            <div class="nav_links">
+                <a href="#">Home</a>
+                <a href="#">menu</a>
+                <a href="#">About us</a>
+                <a href="#">Reservation</a>
+                <a href="#">Contacts</a>
+            </div>
+
+            <div class="burger">
+                <span></span>
+            </div>
+
+        </nav>
+    </header>
+
+    <section id="main">
+        <h1>Dinner is Better <br> <span> when we eat</span> <br> Together</h1>
+
+        <button id="btn">Order delivery</button>
+    </section>
+        
+    <div class="backdrop">
+        <div class="modal">
+            <div class="modalheader">
+                <h2>Free delivery</h2>
+                <div class="modalclosebutton">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+    
+            <div class="modalContent">
+            </div>
+    
+            
+        </div>
+    
+    </div>
+
+    
+    <div class="menu">
+        <div class="heading">
+            <h2>&mdash; MENU &mdash;</h2>
+        </div>
+    </div>
+    <section id="ourMenu">
+        <div class="container">
+            <div class="categories__choice">
+                <button class="btn all categories__choice__active"> <span>All</span> </button>
+                <button class="btn burger"> SALADS </button>
+                <button class="btn pizza"> PIZZAS </button>
+                <button class="btn drinks"> DRINKS </button>
+                <button class="btn desserts"> DESERTS </button>
+                <button class="btn desserts"> PASTA </button>
+                <button class="btn desserts"> STEAKS </button>
+                 <!-- salads.pasta,steaks,juices, -->
+
+            </div>
+            <div class="row output">
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="slider">
+        <div class="container swiper_container">
+            <div class="swiper newSlider">
+                <div class="swiper-wrapper slider">
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section class="steps">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4">
+                    <div class="steps_box">
+                        <img src="./Images/food.jpg" alt="">
+                        <h3>Choose your favorite food</h3>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="steps_box">
+                        <img src="./Images/delivery.jpg" alt="">
+                        <h3>Free and fast delivery</h3>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="steps_box">
+                        <img src="./Images/payment.jpg" alt="">
+                        <h3>Easy payments methods</h3>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="steps_box">
+                        <img src="./Images/food.jpg" alt="">
+                        <h3>Enjoy your food</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="review">
+        <div class="container">
+            <h2>our customers <span>reviews</span></h2>
+            <div class="row">
+
+                <div class="col-3">
+                    <div class="review_box">
+                        <img src="https://image.shutterstock.com/mosaic_250/2780032/1667439913/stock-photo-headshot-portrait-of-smiling-millennial-male-employee-talk-on-video-call-or-web-conference-in-1667439913.jpg" alt="">
+                        <h3>John Smit</h3>
+                        <div class="stars">
+                            <i class="fas fa star"></i>
+                            <i class="fas fa star"></i>
+                            <i class="fas fa star"></i>
+                            <i class="fas fa star"></i>
+                            <i class="far fa star"></i>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi temporibus iure mollitia et deserunt libero quasi, nesciunt placeat ea porro.</p>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="review_box">
+                        <img src="https://qph.cf2.quoracdn.net/main-qimg-7fb93146f5e4e470f5a590d2fc38be3b-lq" alt="">
+                        <h3>John Smit</h3>
+                        <div class="stars">
+                            <i class="fas fa star"></i>
+                            <i class="fas fa star"></i>
+                            <i class="fas fa star"></i>
+                            <i class="fas fa star"></i>
+                            <i class="far fa star"></i>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi temporibus iure mollitia et deserunt libero quasi, nesciunt placeat ea porro.</p>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="review_box">
+                        <img src="https://atd-blog.s3.us-east-2.amazonaws.com/wp-content/uploads/2022/04/16142821/cool-profile-pictures-for-girls-9.webp" alt="">
+                        <h3>John Smit</h3>
+                        <div class="stars">
+                            <i class="fas fa star"></i>
+                            <i class="fas fa star"></i>
+                            <i class="fas fa star"></i>
+                            <i class="fas fa star"></i>
+                            <i class="far fa star"></i>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi temporibus iure mollitia et deserunt libero quasi, nesciunt placeat ea porro.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="telegram">
+        <div class="container tg__container">
+
+            <form id="newForm">
+                <img src="https://cdn.jotfor.ms/p/google-forms-alternative/assets/img-min/new-header/introduction-mobile.png" alt="img">
+            </form>
+
+            <form id="form">
+                <h2>Заявка для клиентов</h2>
+                <input placeholder="Name" type="text" id="inputMessage">
+                <input placeholder="Phone number" type="tel" id="inputNumber">
+                <input placeholder="Name of food" type="text" id="inputData"> 
+                <button class="telegram__button">Apply for order</button>
+            </form>
+                    
+        </div>
+    </section>
+
+    <section id="map">
+        <div class="container map_container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1462.0796886450248!2d74.60328848032819!3d42.86948009855327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7d00eb329ed%3A0xa14762ee4b6e648f!2z0J7QniBJbm5vdmF0aXZlIFNvbHV0aW9uIEluYy4sIDMyINGD0LsuINCg0LDQt9C30LDQutC-0LLQsCwg0JHQuNGI0LrQtdC6IDcyMDA0MA!5e0!3m2!1sru!2skg!4v1663862276733!5m2!1sru!2skg" width="900" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>       
+        </div>
+    </section>
+
+    <section id="dropdown" >
+        <div class="container">
+            <div class="dropdown">
+
+                <div class="dropdown__wrap">
+                    <div class="dropdown__name">
+                        <p>About us</p>
+                        <img class="plus" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/drop-down-13.png" alt="plus">
+                    </div>
+                    <div class="dropdown__content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa velit eveniet beatae repudiandae labore ex voluptatum odio consequuntur quasi enim perspiciatis, neque porro, quod, dolorum minima reprehenderit nostrum quos. Dolorum esse consequuntur aliquam voluptas ut excepturi deleniti at sint repellat debitis eius, deserunt veritatis necessitatibus blanditiis nihil reiciendis possimus quaerat.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown__wrap">
+                    <div class="dropdown__name">
+                        <p>Our service</p>
+                        <img class="plus" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/drop-down-13.png" alt="plus">
+                    </div>
+                    <div class="dropdown__content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa velit eveniet beatae repudiandae labore ex voluptatum odio consequuntur quasi enim perspiciatis, neque porro, quod, dolorum minima reprehenderit nostrum quos. Dolorum esse consequuntur aliquam voluptas ut excepturi deleniti at sint repellat debitis eius, deserunt veritatis necessitatibus blanditiis nihil reiciendis possimus quaerat.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown__wrap">
+                    <div class="dropdown__name">
+                        <p>What's news in our menu?</p>
+                        <img class="plus" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/drop-down-13.png" alt="plus">
+                    </div>
+                    <div class="dropdown__content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa velit eveniet beatae repudiandae labore ex voluptatum odio consequuntur quasi enim perspiciatis, neque porro, quod, dolorum minima reprehenderit nostrum quos. Dolorum esse consequuntur aliquam voluptas ut excepturi deleniti at sint repellat debitis eius, deserunt veritatis necessitatibus blanditiis nihil reiciendis possimus quaerat.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown__wrap">
+                    <div class="dropdown__name">
+                        <p>Special foods</p>
+                        <img class="plus" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/drop-down-13.png" alt="plus">
+                    </div>
+                    <div class="dropdown__content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa velit eveniet beatae repudiandae labore ex voluptatum odio consequuntur quasi enim perspiciatis, neque porro, quod, dolorum minima reprehenderit nostrum quos. Dolorum esse consequuntur aliquam voluptas ut excepturi deleniti at sint repellat debitis eius, deserunt veritatis necessitatibus blanditiis nihil reiciendis possimus quaerat.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown__wrap">
+                    <div class="dropdown__name">
+                        <p>Support</p>
+                        <img class="plus" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/drop-down-13.png" alt="plus">
+                    </div>
+                    <div class="dropdown__content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa velit eveniet beatae repudiandae labore ex voluptatum odio consequuntur quasi enim perspiciatis, neque porro, quod, dolorum minima reprehenderit nostrum quos. Dolorum esse consequuntur aliquam voluptas ut excepturi deleniti at sint repellat debitis eius, deserunt veritatis necessitatibus blanditiis nihil reiciendis possimus quaerat.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer id="footer">
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4 "></div>
+        </div>
+        <ul class="social__icon">
+            <li><a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://twitter.com/"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="https://www.linkedin.com/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        </ul>
+
+        <ul class="menu">
+            <li><a href="Home"></a>Home</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Services</li>
+            <li><a href="#"></a>Team</li>
+            <li><a href="#"></a>Contacts</li>
+        </ul>
+        <p>©2022 Lorem, ipsum dolor</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./JS/script.js"></script>
+    <script src="./JS/menu.js"></script>
+    <script src="./JS/telegram.js"></script>
+    <script src="./JS/swiper.js"></script>
+    <script src="./JS/dropdown.js"></script>
+    <script src="./JS/burger.js"></script>
+    <script src="./JS/modal.js"></script>
+</body>
+</html>

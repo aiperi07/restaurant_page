@@ -1,0 +1,56 @@
+#telegram{
+    padding: 70px 0;
+    background-color: black;
+}
+.tg__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#newForm{
+    display: flex;
+    height: 600px;
+    background-color: aliceblue;
+    width: 50%;
+    align-items: center;
+}
+#newForm img{
+    width: 100%;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+    border: 1px solid orange;
+    /* margin: 0 30px; */
+    height: 600px;
+
+}
+#telegram input{
+    margin: 50px;
+    padding: 20px 40px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#telegram input:hover{
+    background: linear-gradient(to top, #f09819, #edde5d);
+}
+#telegram button{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 10px;
+    background-color: orange;
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+#telegram button:hover{
+    background-color: rgb(253, 182, 4);
+}

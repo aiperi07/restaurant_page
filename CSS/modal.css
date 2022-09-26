@@ -1,0 +1,68 @@
+.backdrop{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(0,0,0,0.6);
+    z-index: 1;
+    display: none;
+}
+.backdropActive{
+    display: block;
+}
+
+.modal{
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /* background-image: url(https://i.pinimg.com/originals/a4/a7/89/a4a789b5a22631895d9cad8eadc58d79.jpg); */
+    /* background-repeat: no-repeat; */
+    background-color: darkgoldenrod;
+    width: 50%;
+    height: 70%;
+    padding: 10px;
+    display: none;
+    border-radius: 30px;
+
+}
+.modalActive{
+    display: block;
+}
+.modalclosebutton span{
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 2px;
+    background-color: white;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+.modalclosebutton span:first-child{
+    transform: rotate(45deg);
+}
+.modalclosebutton span:last-child{
+    transform: rotate(-45deg);
+}
+.modalOrder{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 2px;
+}
+.modal h1{
+    padding: 30px;
+}
+.modal h3{
+    font-size: 40px;
+    padding: 30px;
+    color: blueviolet;
+}
+.contentText{
+    padding: 30px;
+}

@@ -1,0 +1,53 @@
+
+#dropdown{
+    padding: 100px 0 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url('https://qaffeepoint.com/wp-content/uploads/2020/11/sliderpic1.jpg'); */
+    background-color: black;
+    color: white;
+}
+
+
+.dropdown__name{
+    padding: 20px;
+    border-color: none;
+    box-shadow: 5px 9px 19px -8px rgba(0,0,0,0.69);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    border-bottom: 1px solid orange;
+    font-size: 30px;
+    
+}
+.dropdown__name:hover{
+    color: black;
+    background: linear-gradient(to bottom, #ed8c05, #efba0b);
+
+}
+
+.plus{
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.dropdown__content{
+    padding: 5px 20px;
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.3s ease-out;
+}
+.dropdown__content p{
+    padding: 15px;
+}
+.dropdown__wrap.dropdown__active .dropdown__content{
+    max-height: 9999px;
+    transition: 0.5s ease-in;
+}
+
+.dropdown__wrap.dropdown__active .plus{
+    transform: rotate(180deg);
+}
